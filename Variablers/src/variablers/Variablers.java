@@ -1,9 +1,11 @@
 
+import java.util.Scanner;
+
 public class Variablers {
 
     public static void main(String[] args) {
 
-        int miVaribleEntera = 10;
+        /*int miVaribleEntera = 10;
         System.out.println(miVaribleEntera);
         //modificamos el valor de la variable
         miVaribleEntera = 5;
@@ -27,8 +29,25 @@ public class Variablers {
         var j = 4;
         System.out.println(i + j);//suma de numeros
         System.out.println(i + j + usuario);// de esquierda a derecha primero toma la suma + concatenación
-        System.out.println(usuario+ (i+j));// si le ponemos dentro de los parentesis le da prioridad y realiza la operacion
-
+        System.out.println(usuario + (i + j));// si le ponemos dentro de los parentesis le da prioridad y realiza la operacion*/
+//caracteres especiales 
+        /*var nombre = "Karla";
+        System.out.println("Nueca linea:\n" + nombre);
+        System.out.println("Tabulador:\t \t" + nombre);
+        System.out.println("Retroceso: \b" + nombre);
+        System.out.println("Comilla simple:\'" + nombre + "\'");
+        System.out.println("Comilla doble: \"" + nombre + "\"");*/
+        
+//Valor desde la consola con la clase Scaner
+        System.out.println("Escribe tu nombre:");
+        Scanner consola = new Scanner(System.in);
+        //.nextLine() para leer de la consola
+        var usuario = consola.nextLine();
+        System.out.println("usuario = " + usuario);
+        System.out.println("Escribe tu titulo");
+        var titulo = consola.nextLine();
+        System.out.println("Resultado: " + usuario + " " + titulo);
+        
     }
 
 }
