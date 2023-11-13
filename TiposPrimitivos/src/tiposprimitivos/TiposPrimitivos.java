@@ -85,7 +85,7 @@ public class TiposPrimitivos {
         edadd = Integer.parseInt(consola.nextLine());
         System.out.println("Tu edad es: " + edadd);*/
 
-// converciones de tipo int a tipo String 
+// converciones de tipo int a tipo String....
         var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
         var caracter  = "hola".charAt(0);
